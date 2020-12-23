@@ -1,0 +1,35 @@
+.header-left {
+  align-items: center;
+
+  a {
+    flex-grow: 1;
+  }
+  .categories {
+    flex-grow: 1;
+    color: #5e646f;
+  }
+  @include search(44, 10, 12, 12, 11, 12, 2.75, 2.75, 1.375, 0.875);
+}
+
+.header-right {
+  .nav-item .btn {
+    font-size: 13px;
+  }
+
+  .nav-item .btn-ghost {
+    border: 1px solid #9f9f9f;
+    color: #8a92a3;
+    font-size: 1rem;
+  }
+
+  .nav-item .btn-full {
+    background-color: #ea5252;
+    color: #fff;
+    margin-left: 0.3rem;
+    font-size: 1rem;
+  }
+
+  i {
+    padding: 0 1rem;
+  }
+}

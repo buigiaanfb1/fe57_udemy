@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-left {
+  align-items: center;
+}
+
+.header-left a {
+  flex-grow: 1;
+}
+
+.header-left .categories {
+  flex-grow: 1;
+  color: #5e646f;
+}
+
+.header-left form {
+  flex-grow: 5;
+  position: relative;
+}
+
+.header-left form .form-control {
+  border: none;
+  background-color: #f2f3f5;
+  height: 44px;
+  padding: 10px 12px;
+  font-size: 12px;
+}
+
+.header-left form .form-control:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.header-left form i {
+  padding: 11px 12px;
+  color: #ec5252;
+  background-color: #f2f3f5;
+  width: 2.75rem;
+  height: 2.75rem;
+  line-height: 1.375rem;
+  font-size: 0.875rem;
+}
+
+.header-right .nav-item .btn {
+  font-size: 13px;
+}
+
+.header-right .nav-item .btn-ghost {
+  border: 1px solid #9f9f9f;
+  color: #8a92a3;
+  font-size: 1rem;
+}
+
+.header-right .nav-item .btn-full {
+  background-color: #ea5252;
+  color: #fff;
+  margin-left: 0.3rem;
+  font-size: 1rem;
+}
+
+.header-right i {
+  padding: 0 1rem;
+}
+
+.carousel {
+  background-image: url(./../../img/cover.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.carousel form {
+  flex-grow: 5;
+  position: relative;
+}
+
+.carousel form .form-control {
+  border: none;
+  background-color: #f2f3f5;
+  height: 44px;
+  padding: 11px 17px;
+  font-size: 18px;
+}
+
+.carousel form .form-control:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.carousel form i {
+  padding: 11px 14px;
+  color: #ec5252;
+  background-color: #f2f3f5;
+  width: 2.75rem;
+  height: 2.75rem;
+  line-height: 1.375rem;
+  font-size: 1.2rem;
+}
+
+.carousel form {
+  width: 80%;
+}
+
+.how-udemy-works {
+  background: linear-gradient(to right, #731c52, #e54e52);
+  color: white;
+}
+
+.how-udemy-works .row .details i {
+  font-size: 3rem;
+  padding-right: 1rem;
+}
+
+.how-udemy-works .row .details .description p {
+  margin: initial;
+}
+/*# sourceMappingURL=style.css.map */
