@@ -1,0 +1,12 @@
+.viewing {
+  .title-viewing {
+    margin: initial;
+    font-size: 19px;
+    margin-left: -5px;
+    color: #505763;
+  }
+  .row {
+    @include slide;
+  }
+  margin-top: 2rem;
+}

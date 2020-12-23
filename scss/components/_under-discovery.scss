@@ -1,0 +1,27 @@
+.under-discovery {
+  background-color: #f7f8fa;
+  .row {
+    padding: 2rem 0;
+    gap: 1rem;
+    .col {
+      .details {
+        .icon {
+          padding-right: 1rem;
+        }
+        .description {
+          p {
+            font-size: 19px;
+            font-weight: 700;
+            margin: initial;
+          }
+          span {
+            color: $color-para;
+          }
+        }
+      }
+      background-color: #fff;
+      padding: 2rem;
+      border: 1px solid #e8e9eb;
+    }
+  }
+}

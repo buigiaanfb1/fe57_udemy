@@ -1,17 +1,22 @@
 .how-udemy-works {
   background: linear-gradient(to right, #731c52, #e54e52);
-  color: white;
+  color: $color-white;
   .row {
-    .details {
-      i {
-        font-size: 3rem;
-        padding-right: 1rem;
-      }
-      .description {
-        p {
-          margin: initial;
+    .col-md-4 {
+      .details {
+        i {
+          font-size: 3rem;
+          padding-right: 1rem;
         }
+        .description {
+          p {
+            margin: initial;
+            font-weight: 700;
+          }
+        }
+        margin-left: 2rem;
       }
     }
+    padding: 1rem 0;
   }
 }

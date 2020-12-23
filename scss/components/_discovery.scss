@@ -1,0 +1,46 @@
+.discovery {
+  .row {
+    .col-md-4 {
+      flex-direction: column;
+      justify-content: center;
+      .details {
+        p {
+          font-size: 18px;
+          font-weight: 700;
+          margin: initial;
+        }
+        span {
+          width: 100px;
+        }
+      }
+      background-color: #f7f8fa;
+    }
+
+    .col-md-8 {
+      .nav-tabs .nav-link {
+        position: relative;
+        padding: 0px 12px 11px 12px;
+        font-size: 0.9375rem;
+        max-width: 7rem;
+        max-height: 4rem;
+        text-decoration: none;
+        color: #29303a;
+        border: none;
+
+        &:hover {
+          border-color: transparent;
+        }
+      }
+
+      .nav-tabs .nav-link.active {
+        border: none;
+        border-bottom: 6px solid #007791;
+      }
+
+      .tab-content {
+        @include slide;
+      }
+    }
+  }
+  margin: 2rem 0;
+}
