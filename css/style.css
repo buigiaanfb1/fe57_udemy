@@ -284,6 +284,7 @@
 
 .viewing {
   margin-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .viewing .title-viewing {
@@ -373,5 +374,94 @@
   font-size: 60px;
   opacity: 1;
   color: #ea5252;
+}
+
+.linear-gradient-nav {
+  height: 8px;
+  background: linear-gradient(to right, #731c52, #e54e52);
+}
+
+.banner {
+  background-color: #29303a;
+}
+
+.banner .row-icon,
+.banner .container {
+  justify-content: space-around;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.banner .container {
+  text-align: center;
+}
+
+.banner .container .row {
+  align-items: center;
+  justify-content: center;
+}
+
+.banner .container .row .icon-left {
+  padding-left: 4rem;
+}
+
+.banner .container .row .icon-right {
+  padding-right: 4rem;
+}
+
+.banner .container .row .details h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.banner .container .row .details p {
+  font-size: 15px;
+  margin-bottom: 1.5rem;
+}
+
+.banner .container .row .details button {
+  font-size: 15px;
+  background-color: #ec5252;
+  color: #fff;
+  padding: 11px 12px;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.banner .container .row .details button:hover {
+  background-color: #992337;
+}
+
+.banner .row-icon {
+  padding-bottom: 2rem;
+  padding-top: 3rem;
+}
+
+.categories {
+  margin: 2rem 0;
+}
+
+.categories .container h1 {
+  font-size: 1.5rem;
+  color: #29303a;
+}
+
+.categories .container .row {
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.categories .container .row .col {
+  font-size: 18px;
+  padding: 15px;
+  border: 1px solid #e3e3e5;
+  cursor: pointer;
+}
+
+.categories .container .row .col i {
+  padding: 0 1rem 0 0;
 }
 /*# sourceMappingURL=style.css.map */

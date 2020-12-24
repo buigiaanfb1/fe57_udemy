@@ -1,0 +1,22 @@
+.categories {
+  margin: 2rem 0;
+  .container {
+    h1 {
+      font-size: 1.5rem;
+      color: #29303a;
+    }
+    .row {
+      gap: 1rem;
+      margin-top: 1rem;
+      .col {
+        font-size: 18px;
+        padding: 15px;
+        border: 1px solid #e3e3e5;
+        cursor: pointer;
+        i {
+          padding: 0 1rem 0 0;
+        }
+      }
+    }
+  }
+}
