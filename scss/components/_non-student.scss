@@ -1,0 +1,27 @@
+.non-student {
+  background-color: #f7f8fa;
+  text-align: center;
+  padding: 2rem 0;
+  .row-non {
+    .border-between {
+      border-right: 1px solid #dedfe0;
+    }
+    .column {
+      h1 {
+        font-size: 19px;
+        font-weight: 700;
+      }
+      .details {
+        @include button;
+        width: 70%;
+        margin: 0 auto;
+        padding: 28px 30px;
+
+        p {
+          color: #3f454f;
+        }
+      }
+      width: 50%;
+    }
+  }
+}

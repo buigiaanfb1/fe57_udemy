@@ -1,0 +1,59 @@
+.comment {
+  background-color: #f7f8fa;
+  padding: 2rem 0;
+  .container {
+    h1 {
+      font-size: 1.5rem;
+      color: #29303a;
+      margin-left: -15px;
+    }
+    .row {
+      .col-md-12 {
+        .details {
+          .img {
+            align-items: center;
+            img {
+              width: 4rem;
+              border-radius: 100%;
+            }
+            span {
+              margin-left: 1rem;
+              font-weight: 600;
+            }
+          }
+          .comment-text {
+            p {
+              margin-top: 1rem;
+              font-weight: 300;
+              padding-bottom: 1rem;
+            }
+          }
+          background-color: #fff;
+          padding: 2rem;
+          margin-bottom: -99999px;
+          padding-bottom: 99999px;
+        }
+        padding: 0 0.5rem;
+      }
+      margin-top: 2rem;
+    }
+    .slick-prev {
+      top: 40%;
+      left: -3%;
+      z-index: 15;
+      background-color: transparent;
+    }
+    .slick-next {
+      top: 40%;
+      right: 1%;
+      z-index: 15;
+      background-color: transparent;
+    }
+    .slick-prev:before,
+    .slick-next::before {
+      font-size: 60px;
+      opacity: 1;
+      color: #ea5252;
+    }
+  }
+}

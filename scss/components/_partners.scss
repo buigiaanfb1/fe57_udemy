@@ -1,0 +1,22 @@
+.partners {
+  background-color: #f7f8fa;
+  .partners-text {
+    padding: 1rem 0 1.5rem 0;
+    text-align: center;
+    font-size: 13px;
+    color: #8f949d;
+    font-weight: 200;
+  }
+  a {
+    .partners-logos {
+      flex-direction: row;
+      justify-content: center;
+      cursor: pointer;
+
+      .logo-item {
+        margin: 0 32px;
+      }
+    }
+    z-index: 15;
+  }
+}
