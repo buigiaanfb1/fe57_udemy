@@ -2,17 +2,32 @@
   background-color: #dedfe0;
   color: #3f454f;
   padding: 2rem 0 1rem 0;
+  .mobile {
+    display: none;
+    a {
+      text-decoration: none;
+      color: #007791;
+      font-size: 13px;
+      margin-bottom: 0.5rem;
+
+      &:hover,
+      :focus {
+        color: #003845;
+      }
+    }
+  }
 
   .wrapper {
     flex-direction: row;
     padding-bottom: 2rem;
+
     .column {
       margin: 0 15px;
       width: 25%;
       flex-direction: column;
       a {
         text-decoration: none;
-        color: #8f949d;
+        color: #007791;
         font-size: 13px;
         margin-bottom: 0.5rem;
 

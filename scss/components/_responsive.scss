@@ -67,8 +67,25 @@
 }
 
 @media (max-width: 768px) {
+  nav {
+    .navbar-brand {
+      left: 100%;
+      position: absolute;
+    }
+    .navbar-toggler {
+      // border-color: transparent;
+      border: none;
+    }
+  }
   .how-udemy-works {
     display: none;
+  }
+
+  .discovery {
+    .nav {
+      flex-wrap: nowrap;
+      overflow-y: scroll;
+    }
   }
 
   .viewing .container,
@@ -89,7 +106,8 @@
   }
 
   .footer {
-    .hide {
+    .hide,
+    .wrapper2 .divide .column .right-term {
       display: none !important;
     }
   }
@@ -101,7 +119,48 @@
       }
     }
   }
+
+  .non-student {
+    .row-non {
+      flex-direction: column;
+      .column {
+        width: 100%;
+        .details {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .footer {
+    .mobile {
+      display: inline;
+      a {
+        margin-right: 1rem;
+      }
+    }
+  }
 }
 
 @media (max-width: 576px) {
+  .carousel {
+    .text-white {
+      font-weight: 400;
+    }
+
+    form {
+      width: 100%;
+    }
+  }
+
+  .footer {
+    .wrapper2 {
+      .column {
+        .details {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
 }

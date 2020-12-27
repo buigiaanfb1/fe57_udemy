@@ -39,21 +39,23 @@
     }
     .slick-prev {
       top: 40%;
-      left: -3%;
+      // left: -1%;
+      // left: -1%;
       z-index: 15;
-      background-color: transparent;
+      border-radius: 100%;
     }
     .slick-next {
+      content: "$slick-next-character";
       top: 40%;
-      right: 1%;
+      right: 0.5%;
       z-index: 15;
-      background-color: transparent;
+      border-radius: 100%;
     }
     .slick-prev:before,
     .slick-next::before {
-      font-size: 60px;
-      opacity: 1;
-      color: #ea5252;
+      color: #007791;
+      font-size: 50px;
+      opacity: 1 !important;
     }
   }
 }
