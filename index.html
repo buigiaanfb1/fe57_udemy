@@ -22,17 +22,17 @@
 
 <body>
     <nav class="navbar navbar-expand-md bg-light navbar-light">
-        <div class="col-md-7">
+        <div class="col-xl-7 col-lg-8 col-md-8 col-sm-5 col-4">
             <div class="header-left d-flex">
                 <a class="navbar-brand" href="#">
                     <img src="./img/logo-coral.svg" width="120px" alt="logo" />
                 </a>
-                <div class="categories">
+                <div class="categories hide">
                     <i class="fa fa-th"></i>
                     <span>Categories</span>
                 </div>
                 <form>
-                    <div class="input-group">
+                    <div class="input-group hide">
                         <input type="text" class="form-control" placeholder="Search for anything" />
                         <i class="fa fa-search"></i>
                     </div>
@@ -40,14 +40,14 @@
             </div>
             <!-- Brand -->
         </div>
-        <div class="col-md-5">
+        <div class="col-xl-5 col-lg-4 col-md-4 col-sm-1 col-1">
             <div class="header-right d-flex">
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
+                        <li class="nav-item hide">
                             <a class="nav-link btn" href="#"> Udemy for Business </a>
                         </li>
-                        <li class="nav-item border-right pr-2">
+                        <li class="nav-item border-right pr-2 hide">
                             <a class="nav-link btn" href="#">Teach on Udemy</a>
                         </li>
                         <li class="nav-item">
@@ -75,9 +75,10 @@
     </header>
 
     <section class="carousel">
+        <img src="./img/cover.jpg" alt="background">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <h1 class="text-white">Learn on your schedule</h1>
                     <p class="text-white">Study any topic, anytime. Choose from thousands of <br>expert-led courses now.
                     </p>
@@ -135,14 +136,14 @@
     <section class="discovery">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 d-flex">
+                <div class="col-md-4 col-lg-3 d-flex hide">
                     <div class="details">
                         <p>The world's largest selection of courses</p>
                         <span>Choose from over 100,000 online video courses with new additions publishes every
                             month</span>
                     </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 col-lg-9 col-md-12 col-sm-12">
                     <nav>
                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
                             <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
@@ -516,43 +517,57 @@
     <section class="categories-section">
         <div class="container">
             <h1>Top categories</h1>
-            <div class="row d-flex">
-                <div class="col">
-                    <i class="fa fa-laptop-code"></i>
-                    <span>Development</span>
+            <div class="row col-lg-12">
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="details">
+                        <i class="fa fa-laptop-code"></i>
+                        <span>Development</span>
+                    </div>
                 </div>
-                <div class="col">
-                    <i class="fa fa-chart-bar"></i>
-                    <span>Business</span>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="details">
+                        <i class="fa fa-chart-bar"></i>
+                        <span>Business</span>
+                    </div>
                 </div>
-                <div class="col">
-                    <i class="fa fa-desktop"></i>
-                    <span>IT and Software</span>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="details">
+                        <i class="fa fa-desktop"></i>
+                        <span>IT and Software</span>
+                    </div>
                 </div>
-                <div class="col">
-                    <i class="fa fa-drafting-compass"></i>
-                    <span>Design</span>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="details">
+                        <i class="fa fa-drafting-compass"></i>
+                        <span>Design</span>
+                    </div>
                 </div>
-            </div>
-            <div class="row d-flex">
-                <div class="col">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="details">
                     <i class="fa fa-bullseye"></i>
                     <span>Marketing</span>
                 </div>
-                <div class="col">
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="details">
                     <i class="fa fa-book-open"></i>
-                    <span>Personal Development</span>
+                    <span>Personal Develope</span>
                 </div>
-                <div class="col">
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="details">
                     <i class="fa fa-camera-retro"></i>
                     <span>Photography</span>
                 </div>
-                <div class="col">
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="details">
                     <i class="fa fa-music"></i>
                     <span>Music</span>
                 </div>
             </div>
         </div>
+
     </section>
 
     <section class="comment">
@@ -567,7 +582,8 @@
                                 Borivoje</span>
                         </div>
                         <div class="comment-text">
-                            <p>Udemy is a life saver. I don't have the time or money for a college education. My goal is to become a freelance web developer, and thanks to Udemy, I'm really close.</p>
+                            <p>Udemy is a life saver. I don't have the time or money for a college education. My goal is
+                                to become a freelance web developer, and thanks to Udemy, I'm really close.</p>
                         </div>
                     </div>
                 </div>
@@ -579,7 +595,8 @@
                                 Borivoje</span>
                         </div>
                         <div class="comment-text">
-                            <p>Thank you Udemy! You've renewed my passion for learning and my dream of becoming a web developer.</p>
+                            <p>Thank you Udemy! You've renewed my passion for learning and my dream of becoming a web
+                                developer.</p>
                         </div>
                     </div>
                 </div>
@@ -591,7 +608,8 @@
                                 Borivoje</span>
                         </div>
                         <div class="comment-text">
-                            <p>Udemy is a life saver. I don't have the time or money for a college education. My goal is to become a freelance web developer, and thanks to Udemy, I'm really close.</p>
+                            <p>Udemy is a life saver. I don't have the time or money for a college education. My goal is
+                                to become a freelance web developer, and thanks to Udemy, I'm really close.</p>
                         </div>
                     </div>
                 </div>
@@ -603,7 +621,8 @@
                                 Borivoje</span>
                         </div>
                         <div class="comment-text">
-                            <p>The best part about Udemy is the selection. You can find a course for anything you want to learn!</p>
+                            <p>The best part about Udemy is the selection. You can find a course for anything you want
+                                to learn!</p>
                         </div>
                     </div>
                 </div>
@@ -615,7 +634,8 @@
                                 Borivoje</span>
                         </div>
                         <div class="comment-text">
-                            <p>I believe in lifelong learning and Udemy is a great place to learn from experts. I've learned a lot and recommend it to all my friends.</p>
+                            <p>I believe in lifelong learning and Udemy is a great place to learn from experts. I've
+                                learned a lot and recommend it to all my friends.</p>
                         </div>
                     </div>
                 </div>
@@ -659,7 +679,8 @@
             <div class="column border-between">
                 <div class="details">
                     <h1>Become an instructor</h1>
-                    <p>Top instructors from around the world teach millions of students on Udemy. We provide the tools and skills to teach what you love.</p>
+                    <p>Top instructors from around the world teach millions of students on Udemy. We provide the tools
+                        and skills to teach what you love.</p>
                     <button>Star teaching today</button>
                 </div>
             </div>
@@ -675,37 +696,38 @@
 
     <section class="footer">
         <div class="wrapper container.fluid d-flex">
-            <div class="column d-flex">
+            <div class="column d-flex hide">
                 <a href="#" class="bold"><strong>Udemy for Business</strong></a>
                 <a href="#"><strong>Teach on Udemy</strong></a>
                 <a href="#">Udemy app</a>
                 <a href="#">About us</a>
             </div>
-            <div class="column d-flex">
+            <div class="column d-flex hide">
                 <a href="#">Contact us</a>
                 <a href="#">Careers</a>
                 <a href="#">Blog</a>
                 <a href="#">Help and Support</a>
             </div>
-            <div class="column d-flex">
+            <div class="column d-flex hide">
                 <a href="#">Affiliate</a>
                 <a href="#">Sitemap</a>
                 <a href="#">Featured courses</a>
             </div>
             <div class="column">
                 <div class="btn-group dropup">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-globe-americas"></i><span>English</span></i>
                     </button>
                     <div class="dropdown-menu">
-                      <!-- Dropdown menu links -->
-                      <a href="#">English</a>
-                      <a href="#">Vietnamese</a>
-                      <a href="#">Chinese</a>
-                      <a href="#">Netherlands</a>
-                      <a href="#">Polski</a>
+                        <!-- Dropdown menu links -->
+                        <a href="#">English</a>
+                        <a href="#">Vietnamese</a>
+                        <a href="#">Chinese</a>
+                        <a href="#">Netherlands</a>
+                        <a href="#">Polski</a>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
         <hr style="background-color: #e8e9eb; height: 1px;; border: none;">

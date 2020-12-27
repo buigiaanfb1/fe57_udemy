@@ -1,12 +1,20 @@
 .carousel {
-  background-image: url(./../../img/cover.jpg);
+  position: relative;
   height: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // background-size: cover;
   display: flex;
   align-items: center;
-
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 500px;
+    width: 100%;
+    background-size: contain;
+  }
   @include search(44, 11, 17, 18, 11, 14, 2.75, 2.75, 1.375, 1.2);
 
   form {

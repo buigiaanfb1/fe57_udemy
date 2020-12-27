@@ -1,0 +1,107 @@
+@media (min-width: 1200px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding: 0.4rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar-expand-md .navbar-nav .hide {
+    display: none;
+  }
+  .how-udemy-works .row .col-md-4 .details i {
+    display: none;
+  }
+  .how-udemy-works .row .col-md-4 .details .description p {
+    text-align: center;
+  }
+
+  .discovery .row .col-md-8 .nav-tabs .nav-link {
+    padding: 0px 10px 11px 10px;
+  }
+
+  .slick-prev {
+    left: 0% !important;
+  }
+
+  .slick-next::before,
+  .slick-prev::before {
+    font-size: 30px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .how-udemy-works .row .col-md-4 .details .description {
+    p {
+      font-size: 15px;
+    }
+    span {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  .discovery .row .hide {
+    display: none !important;
+  }
+
+  .under-discovery .row .col .details {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      padding-top: 0.5rem;
+      font-size: 15px !important;
+      text-align: center;
+    }
+    span {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  .banner .row-icon i,
+  .banner .container i {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .how-udemy-works {
+    display: none;
+  }
+
+  .viewing .container,
+  .categories-section .container,
+  .comment .container,
+  .discovery .container,
+  .under-discovery .container {
+    max-width: 750px !important;
+  }
+
+  .under-discovery .row {
+    flex-direction: column;
+  }
+
+  .slick-next::before,
+  .slick-prev::before {
+    display: none !important;
+  }
+
+  .footer {
+    .hide {
+      display: none !important;
+    }
+  }
+
+  .navbar-expand-md {
+    .header-left {
+      .hide {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+}

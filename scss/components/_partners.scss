@@ -10,11 +10,11 @@
   a {
     .partners-logos {
       flex-direction: row;
-      justify-content: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
       cursor: pointer;
-
-      .logo-item {
-        margin: 0 32px;
+      img {
+        max-height: 20px;
       }
     }
     z-index: 15;

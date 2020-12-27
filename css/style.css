@@ -67,13 +67,20 @@
 }
 
 .carousel {
-  background-image: url(./../../img/cover.jpg);
+  position: relative;
   height: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   display: flex;
   align-items: center;
+}
+
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 500px;
+  width: 100%;
+  background-size: contain;
 }
 
 .carousel form {
@@ -451,19 +458,25 @@
 }
 
 .categories-section .container .row {
-  gap: 1rem;
   margin-top: 1rem;
 }
 
-.categories-section .container .row .col {
-  font-size: 18px;
-  padding: 15px;
-  border: 1px solid #e3e3e5;
-  cursor: pointer;
+.categories-section .container .row .col-xl-3 {
+  color: #2f3236;
 }
 
-.categories-section .container .row .col i {
+.categories-section .container .row .col-xl-3 .details {
+  padding: 15px;
+  font-size: 15px;
+  border: 1px solid #eaeaeb;
+  cursor: pointer;
+  box-shadow: 0px 9px 11px 0px #e3e3e3;
+  margin-bottom: 0.8rem;
+}
+
+.categories-section .container .row .col-xl-3 i {
   padding: 0 1rem 0 0;
+  color: #2f3236;
 }
 
 .comment {
@@ -551,12 +564,13 @@
 
 .partners a .partners-logos {
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
   cursor: pointer;
 }
 
-.partners a .partners-logos .logo-item {
-  margin: 0 32px;
+.partners a .partners-logos img {
+  max-height: 20px;
 }
 
 .non-student {
@@ -687,5 +701,90 @@
 .footer .wrapper2 .divide .column .right-term a:hover,
 .footer .wrapper2 .divide .column .right-term a :focus {
   color: #003845;
+}
+
+@media (min-width: 1200px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding: 0.4rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar-expand-md .navbar-nav .hide {
+    display: none;
+  }
+  .how-udemy-works .row .col-md-4 .details i {
+    display: none;
+  }
+  .how-udemy-works .row .col-md-4 .details .description p {
+    text-align: center;
+  }
+  .discovery .row .col-md-8 .nav-tabs .nav-link {
+    padding: 0px 10px 11px 10px;
+  }
+  .slick-prev {
+    left: 0% !important;
+  }
+  .slick-next::before,
+  .slick-prev::before {
+    font-size: 30px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .how-udemy-works .row .col-md-4 .details .description p {
+    font-size: 15px;
+  }
+  .how-udemy-works .row .col-md-4 .details .description span {
+    display: block;
+    text-align: center;
+  }
+  .discovery .row .hide {
+    display: none !important;
+  }
+  .under-discovery .row .col .details {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .under-discovery .row .col .details p {
+    padding-top: 0.5rem;
+    font-size: 15px !important;
+    text-align: center;
+  }
+  .under-discovery .row .col .details span {
+    display: block;
+    text-align: center;
+  }
+  .banner .row-icon i,
+  .banner .container i {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .how-udemy-works {
+    display: none;
+  }
+  .viewing .container,
+  .categories-section .container,
+  .comment .container,
+  .discovery .container,
+  .under-discovery .container {
+    max-width: 750px !important;
+  }
+  .under-discovery .row {
+    flex-direction: column;
+  }
+  .slick-next::before,
+  .slick-prev::before {
+    display: none !important;
+  }
+  .footer .hide {
+    display: none !important;
+  }
+  .navbar-expand-md .header-left .hide {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
